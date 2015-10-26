@@ -7,7 +7,7 @@
         {
             name : "main",
             include : [
-                "packages/package2/main"
+                "modules/module2/main"
             ]
         }
     ]

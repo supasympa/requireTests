@@ -1,4 +1,4 @@
-require(['./packages/package1/package1'], function(pkg1){
+require(['modules/module1/module1'], function(pkg1){
     'use strict';
 
     console.log('main.js');
@@ -6,7 +6,7 @@ require(['./packages/package1/package1'], function(pkg1){
     pkg1.start();
 
     setTimeout(function(){
-        require(['./packages/package2/main'], function(pckg2){
+        require(['modules/module2/main'], function(pckg2){
             pckg2.start();
         });
     }, 200)

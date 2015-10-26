@@ -1,8 +1,8 @@
 
 main.js
 ----------------
-packages/package1/dependencies/package1-dep1.js
-packages/package1/package1.js
+modules/module1/dependencies/module1-dep1.js
+modules/module1/module1.js
 main.js
-packages/package2/dependencies/package2-dep1.js
-packages/package2/main.js
+modules/module2/dependencies/module2-dep1.js
+modules/module2/main.js

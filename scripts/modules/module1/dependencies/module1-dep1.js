@@ -3,7 +3,7 @@ define([], function(){
 
     return {
         start : function(){
-            console.log('package1-dep1.js: package1-dep1.js.start();');
+            console.log('module1-dep1.js: module1-dep1.js.start();');
         }
     };
 

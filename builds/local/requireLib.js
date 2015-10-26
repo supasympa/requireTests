@@ -1325,7 +1325,7 @@ var requirejs, require, define;
                     config.shim = shim;
                 }
 
-                //Adjust packages if necessary.
+                //Adjust modules if necessary.
                 if (cfg.packages) {
                     each(cfg.packages, function (pkgObj) {
                         var location, name;

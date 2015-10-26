@@ -30,3 +30,5 @@ build/Release
 node_modules
 
 /bower_components
+/builds/local/build.txt
+/builds/local/modules
