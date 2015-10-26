@@ -4,8 +4,15 @@ read this on how to do module dependencies : [by clicking here]  (http://www.ben
 
 
 # To build locally using r.js:
-*$:* node node_modules/requirejs/bin/r.js -o build.local.js paths.requireLib=../bower_components/requirejs/require name=main include=requireLib
+
+Build this up your bad self:
+
+```
+$: node node_modules/requirejs/bin/r.js -o build.local.js paths.requireLib=../bower_components/requirejs/require name=main include=requireLib
+```
 
 or maybe  
 
-*$:* node node_modules/requirejs/bin/r.js -o build.local.js paths.requireLib=../bower_components/requirejs/require include=requireLib
+```
+$: node node_modules/requirejs/bin/r.js -o build.local.js paths.requireLib=../bower_components/requirejs/require include=requireLib
+```
