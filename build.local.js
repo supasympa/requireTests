@@ -6,9 +6,7 @@
     modules:[
         {
             name : "main",
-            include : [
-                "modules/module2/main"
-            ]
+            include : []
         }
     ]
 })

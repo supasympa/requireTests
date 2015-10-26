@@ -4,5 +4,3 @@ main.js
 modules/module1/dependencies/module1-dep1.js
 modules/module1/module1.js
 main.js
-modules/module2/dependencies/module2-dep1.js
-modules/module2/main.js
