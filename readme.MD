@@ -1,7 +1,16 @@
-#read these!
+#read these ...
 
 read this on how to do module dependencies : [by clicking here]  (http://www.bennadel.com/blog/2404-compiling-optimizing-a-subset-of-a-requirejs-application.htm)
 
+#then run the ususal shizzle...
+
+```
+$: npm install;
+```
+
+```
+$: bower install
+```
 
 # To build locally using r.js:
 
