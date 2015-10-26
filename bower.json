@@ -1,0 +1,19 @@
+{
+  "name": "requireTests",
+  "version": "0.0.0",
+  "authors": [
+    "Lewis Barclay <lewis.barclay@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "r.js": "~2.1.20",
+    "requirejs": "~2.1.20"
+  }
+}
