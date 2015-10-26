@@ -38,7 +38,7 @@ require(['modules/module1/module1'], function(pkg1){
         require(['modules/module2/main'], function(pckg2){
             pckg2.start();
         });
-    }, 2000)
+    }, 200)
 });
 
 

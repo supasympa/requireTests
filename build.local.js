@@ -6,7 +6,6 @@
     modules:[
         {
             name : "main",
-            include : []
         }
     ]
 })
