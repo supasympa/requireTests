@@ -17,7 +17,7 @@ module.exports = function (grunt) {
                     modules:[
                         {
                             name : "main",
-                            include: ["requireLib", "modules/module2/main", "modules/module2/dependencies/module2-dep1"],
+                            include: ["requireLib",  "modules/module2/dependencies/module2-dep1"],
                             exclude: ["common/foo/foo"]
                         },
                         {
