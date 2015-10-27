@@ -6,9 +6,9 @@ require(['modules/module1/module1'], function(pkg1){
     pkg1.start();
 
     setTimeout(function(){
-        require(['modules/module2/main'], function(pckg2){
+        require(['./modules/module2/main'], function(pckg2){
             pckg2.start();
         });
-    }, 200)
+    }, 2000)
 });
 

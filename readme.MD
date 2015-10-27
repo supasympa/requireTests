@@ -17,11 +17,7 @@ $: bower install
 Build this up your bad self:
 
 ```
-$: node node_modules/requirejs/bin/r.js -o build.local.js paths.requireLib=../bower_components/requirejs/require name=main include=requireLib
+$: node node_modules/requirejs/bin/r.js -o build.local.js
 ```
 
-or maybe  
-
-```
-$: node node_modules/requirejs/bin/r.js -o build.local.js paths.requireLib=../bower_components/requirejs/require include=requireLib
-```
+# Open in a browser and view the console log.

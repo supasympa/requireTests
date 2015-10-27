@@ -1,6 +1,0 @@
-
-main.js
-----------------
-modules/module1/dependencies/module1-dep1.js
-modules/module1/module1.js
-main.js

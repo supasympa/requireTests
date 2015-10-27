@@ -1,4 +1,4 @@
-define(['./dependencies/module1-dep1'], function(dep1){
+define(['./dependencies/module1-dep1', 'common/foo/foo'], function(dep1, foo){
     'use strict';
 
     return {
@@ -7,10 +7,7 @@ define(['./dependencies/module1-dep1'], function(dep1){
 
             dep1.start();
 
-        },
-
-        routed : function(){
-            console.log('module1.js, module1.routed()')
+            foo.bar();
         }
     };
 
