@@ -34,7 +34,7 @@ Go to : [http://whatever.your.domain.is/requireTests/index.html] (http://127.0.0
  
 and compare the console logs to those in
 
-[http://whatever.your.domain.is/requireTests/index.html] (http://127.0.0.1/requireTests/builds/local/index.html)
+[http://whatever.your.domain.is/requireTests/builds/local/index.html] (http://127.0.0.1/requireTests/builds/local/index.html)
 
 
 TODO: not sure why all the dependencies get copied as part of the build!?
