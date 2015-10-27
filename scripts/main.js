@@ -1,3 +1,8 @@
+require.config({
+    paths : {
+        text : "../bower_components/text/text"
+    }
+});
 require(['modules/module1/module1'], function(pkg1){
     'use strict';
 

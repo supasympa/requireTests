@@ -1,9 +1,9 @@
-define(function(){
+define(['text!./template.txt'],function(template){
     return {
 
         bar : function(msg){
             msg = msg || '';
-            console.log('foo.bar() ... ', msg);
+            console.log(template + ' foo.bar() ... ', msg);
         }
     };
 });
